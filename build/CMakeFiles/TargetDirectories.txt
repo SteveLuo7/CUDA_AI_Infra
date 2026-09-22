@@ -1,3 +1,4 @@
 D:/CUDA_AI_Infra/build/CMakeFiles/hello.dir
+D:/CUDA_AI_Infra/build/CMakeFiles/test.dir
 D:/CUDA_AI_Infra/build/CMakeFiles/edit_cache.dir
 D:/CUDA_AI_Infra/build/CMakeFiles/rebuild_cache.dir
