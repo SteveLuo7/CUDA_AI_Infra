@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/CUDA_AI_Infra/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
