@@ -52,7 +52,7 @@ RM = D:\CMake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\CUDA_AI_Infra
+CMAKE_SOURCE_DIR = D:\CUDA_AI_Infra\Day1
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = D:\CUDA_AI_Infra\build
@@ -72,18 +72,18 @@ CMakeFiles/test.dir/codegen:
 .PHONY : CMakeFiles/test.dir/codegen
 
 CMakeFiles/test.dir/test.cpp.obj: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/test.cpp.obj: D:/CUDA_AI_Infra/test.cpp
+CMakeFiles/test.dir/test.cpp.obj: D:/CUDA_AI_Infra/Day1/test.cpp
 CMakeFiles/test.dir/test.cpp.obj: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CUDA_AI_Infra\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/test.cpp.obj"
-	D:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/test.cpp.obj -MF CMakeFiles\test.dir\test.cpp.obj.d -o CMakeFiles\test.dir\test.cpp.obj -c D:\CUDA_AI_Infra\test.cpp
+	D:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/test.cpp.obj -MF CMakeFiles\test.dir\test.cpp.obj.d -o CMakeFiles\test.dir\test.cpp.obj -c D:\CUDA_AI_Infra\Day1\test.cpp
 
 CMakeFiles/test.dir/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test.dir/test.cpp.i"
-	D:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CUDA_AI_Infra\test.cpp > CMakeFiles\test.dir\test.cpp.i
+	D:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CUDA_AI_Infra\Day1\test.cpp > CMakeFiles\test.dir\test.cpp.i
 
 CMakeFiles/test.dir/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test.dir/test.cpp.s"
-	D:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CUDA_AI_Infra\test.cpp -o CMakeFiles\test.dir\test.cpp.s
+	D:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CUDA_AI_Infra\Day1\test.cpp -o CMakeFiles\test.dir\test.cpp.s
 
 # Object files for target test
 test_OBJECTS = \
@@ -109,6 +109,6 @@ CMakeFiles/test.dir/clean:
 .PHONY : CMakeFiles/test.dir/clean
 
 CMakeFiles/test.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\CUDA_AI_Infra D:\CUDA_AI_Infra D:\CUDA_AI_Infra\build D:\CUDA_AI_Infra\build D:\CUDA_AI_Infra\build\CMakeFiles\test.dir\DependInfo.cmake "--color=$(COLOR)" test
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\CUDA_AI_Infra\Day1 D:\CUDA_AI_Infra\Day1 D:\CUDA_AI_Infra\build D:\CUDA_AI_Infra\build D:\CUDA_AI_Infra\build\CMakeFiles\test.dir\DependInfo.cmake "--color=$(COLOR)" test
 .PHONY : CMakeFiles/test.dir/depend
 

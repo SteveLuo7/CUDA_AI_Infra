@@ -52,7 +52,7 @@ RM = D:\CMake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\CUDA_AI_Infra
+CMAKE_SOURCE_DIR = D:\CUDA_AI_Infra\Day1
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = D:\CUDA_AI_Infra\build
@@ -72,18 +72,18 @@ CMakeFiles/hello.dir/codegen:
 .PHONY : CMakeFiles/hello.dir/codegen
 
 CMakeFiles/hello.dir/hello.cpp.obj: CMakeFiles/hello.dir/flags.make
-CMakeFiles/hello.dir/hello.cpp.obj: D:/CUDA_AI_Infra/hello.cpp
+CMakeFiles/hello.dir/hello.cpp.obj: D:/CUDA_AI_Infra/Day1/hello.cpp
 CMakeFiles/hello.dir/hello.cpp.obj: CMakeFiles/hello.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CUDA_AI_Infra\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hello.dir/hello.cpp.obj"
-	D:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello.dir/hello.cpp.obj -MF CMakeFiles\hello.dir\hello.cpp.obj.d -o CMakeFiles\hello.dir\hello.cpp.obj -c D:\CUDA_AI_Infra\hello.cpp
+	D:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hello.dir/hello.cpp.obj -MF CMakeFiles\hello.dir\hello.cpp.obj.d -o CMakeFiles\hello.dir\hello.cpp.obj -c D:\CUDA_AI_Infra\Day1\hello.cpp
 
 CMakeFiles/hello.dir/hello.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hello.dir/hello.cpp.i"
-	D:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CUDA_AI_Infra\hello.cpp > CMakeFiles\hello.dir\hello.cpp.i
+	D:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CUDA_AI_Infra\Day1\hello.cpp > CMakeFiles\hello.dir\hello.cpp.i
 
 CMakeFiles/hello.dir/hello.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hello.dir/hello.cpp.s"
-	D:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CUDA_AI_Infra\hello.cpp -o CMakeFiles\hello.dir\hello.cpp.s
+	D:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CUDA_AI_Infra\Day1\hello.cpp -o CMakeFiles\hello.dir\hello.cpp.s
 
 # Object files for target hello
 hello_OBJECTS = \
@@ -109,6 +109,6 @@ CMakeFiles/hello.dir/clean:
 .PHONY : CMakeFiles/hello.dir/clean
 
 CMakeFiles/hello.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\CUDA_AI_Infra D:\CUDA_AI_Infra D:\CUDA_AI_Infra\build D:\CUDA_AI_Infra\build D:\CUDA_AI_Infra\build\CMakeFiles\hello.dir\DependInfo.cmake "--color=$(COLOR)" hello
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\CUDA_AI_Infra\Day1 D:\CUDA_AI_Infra\Day1 D:\CUDA_AI_Infra\build D:\CUDA_AI_Infra\build D:\CUDA_AI_Infra\build\CMakeFiles\hello.dir\DependInfo.cmake "--color=$(COLOR)" hello
 .PHONY : CMakeFiles/hello.dir/depend
 

@@ -1,14 +1,32 @@
 [
 {
   "directory": "D:/CUDA_AI_Infra/build",
-  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\hello.dir\\hello.cpp.obj -c D:\\CUDA_AI_Infra\\hello.cpp",
-  "file": "D:/CUDA_AI_Infra/hello.cpp",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\hello.dir\\hello.cpp.obj -c D:\\CUDA_AI_Infra\\Day1\\hello.cpp",
+  "file": "D:/CUDA_AI_Infra/Day1/hello.cpp",
   "output": "CMakeFiles/hello.dir/hello.cpp.obj"
 },
 {
   "directory": "D:/CUDA_AI_Infra/build",
-  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\test.dir\\test.cpp.obj -c D:\\CUDA_AI_Infra\\test.cpp",
-  "file": "D:/CUDA_AI_Infra/test.cpp",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\test.dir\\test.cpp.obj -c D:\\CUDA_AI_Infra\\Day1\\test.cpp",
+  "file": "D:/CUDA_AI_Infra/Day1/test.cpp",
   "output": "CMakeFiles/test.dir/test.cpp.obj"
+},
+{
+  "directory": "D:/CUDA_AI_Infra/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\type.dir\\type.cpp.obj -c D:\\CUDA_AI_Infra\\Day1\\type.cpp",
+  "file": "D:/CUDA_AI_Infra/Day1/type.cpp",
+  "output": "CMakeFiles/type.dir/type.cpp.obj"
+},
+{
+  "directory": "D:/CUDA_AI_Infra/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\if1.dir\\if1.cpp.obj -c D:\\CUDA_AI_Infra\\Day1\\if1.cpp",
+  "file": "D:/CUDA_AI_Infra/Day1/if1.cpp",
+  "output": "CMakeFiles/if1.dir/if1.cpp.obj"
+},
+{
+  "directory": "D:/CUDA_AI_Infra/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\plus.dir\\plus.cpp.obj -c D:\\CUDA_AI_Infra\\Day1\\plus.cpp",
+  "file": "D:/CUDA_AI_Infra/Day1/plus.cpp",
+  "output": "CMakeFiles/plus.dir/plus.cpp.obj"
 }
 ]

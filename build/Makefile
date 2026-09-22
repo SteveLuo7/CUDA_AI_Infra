@@ -56,7 +56,7 @@ RM = D:\CMake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\CUDA_AI_Infra
+CMAKE_SOURCE_DIR = D:\CUDA_AI_Infra\Day1
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = D:\CUDA_AI_Infra\build
@@ -141,6 +141,45 @@ test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
+#=============================================================================
+# Target rules for targets named type
+
+# Build rule for target.
+type: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 type
+.PHONY : type
+
+# fast build rule for target.
+type/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\type.dir\build.make CMakeFiles/type.dir/build
+.PHONY : type/fast
+
+#=============================================================================
+# Target rules for targets named if1
+
+# Build rule for target.
+if1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 if1
+.PHONY : if1
+
+# fast build rule for target.
+if1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\if1.dir\build.make CMakeFiles/if1.dir/build
+.PHONY : if1/fast
+
+#=============================================================================
+# Target rules for targets named plus
+
+# Build rule for target.
+plus: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 plus
+.PHONY : plus
+
+# fast build rule for target.
+plus/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\plus.dir\build.make CMakeFiles/plus.dir/build
+.PHONY : plus/fast
+
 hello.obj: hello.cpp.obj
 .PHONY : hello.obj
 
@@ -164,6 +203,54 @@ hello.s: hello.cpp.s
 hello.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello.dir\build.make CMakeFiles/hello.dir/hello.cpp.s
 .PHONY : hello.cpp.s
+
+if1.obj: if1.cpp.obj
+.PHONY : if1.obj
+
+# target to build an object file
+if1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\if1.dir\build.make CMakeFiles/if1.dir/if1.cpp.obj
+.PHONY : if1.cpp.obj
+
+if1.i: if1.cpp.i
+.PHONY : if1.i
+
+# target to preprocess a source file
+if1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\if1.dir\build.make CMakeFiles/if1.dir/if1.cpp.i
+.PHONY : if1.cpp.i
+
+if1.s: if1.cpp.s
+.PHONY : if1.s
+
+# target to generate assembly for a file
+if1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\if1.dir\build.make CMakeFiles/if1.dir/if1.cpp.s
+.PHONY : if1.cpp.s
+
+plus.obj: plus.cpp.obj
+.PHONY : plus.obj
+
+# target to build an object file
+plus.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\plus.dir\build.make CMakeFiles/plus.dir/plus.cpp.obj
+.PHONY : plus.cpp.obj
+
+plus.i: plus.cpp.i
+.PHONY : plus.i
+
+# target to preprocess a source file
+plus.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\plus.dir\build.make CMakeFiles/plus.dir/plus.cpp.i
+.PHONY : plus.cpp.i
+
+plus.s: plus.cpp.s
+.PHONY : plus.s
+
+# target to generate assembly for a file
+plus.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\plus.dir\build.make CMakeFiles/plus.dir/plus.cpp.s
+.PHONY : plus.cpp.s
 
 test.obj: test.cpp.obj
 .PHONY : test.obj
@@ -189,6 +276,30 @@ test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.cpp.s
 .PHONY : test.cpp.s
 
+type.obj: type.cpp.obj
+.PHONY : type.obj
+
+# target to build an object file
+type.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\type.dir\build.make CMakeFiles/type.dir/type.cpp.obj
+.PHONY : type.cpp.obj
+
+type.i: type.cpp.i
+.PHONY : type.i
+
+# target to preprocess a source file
+type.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\type.dir\build.make CMakeFiles/type.dir/type.cpp.i
+.PHONY : type.cpp.i
+
+type.s: type.cpp.s
+.PHONY : type.s
+
+# target to generate assembly for a file
+type.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\type.dir\build.make CMakeFiles/type.dir/type.cpp.s
+.PHONY : type.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -198,13 +309,25 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... hello
+	@echo ... if1
+	@echo ... plus
 	@echo ... test
+	@echo ... type
 	@echo ... hello.obj
 	@echo ... hello.i
 	@echo ... hello.s
+	@echo ... if1.obj
+	@echo ... if1.i
+	@echo ... if1.s
+	@echo ... plus.obj
+	@echo ... plus.i
+	@echo ... plus.s
 	@echo ... test.obj
 	@echo ... test.i
 	@echo ... test.s
+	@echo ... type.obj
+	@echo ... type.i
+	@echo ... type.s
 .PHONY : help
 
 

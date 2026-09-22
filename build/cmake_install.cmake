@@ -1,4 +1,4 @@
-# Install script for directory: D:/CUDA_AI_Infra
+# Install script for directory: D:/CUDA_AI_Infra/Day1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

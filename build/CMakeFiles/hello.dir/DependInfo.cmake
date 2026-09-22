@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/CUDA_AI_Infra/hello.cpp" "CMakeFiles/hello.dir/hello.cpp.obj" "gcc" "CMakeFiles/hello.dir/hello.cpp.obj.d"
+  "D:/CUDA_AI_Infra/Day1/hello.cpp" "CMakeFiles/hello.dir/hello.cpp.obj" "gcc" "CMakeFiles/hello.dir/hello.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -17,7 +17,10 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3,
+						4
 					]
 				}
 			],
@@ -33,7 +36,10 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3,
+						4
 					]
 				}
 			],
@@ -48,9 +54,30 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "if1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-if1-Debug-f453d8023e9445564b62.json",
+					"name" : "if1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plus::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plus-Debug-dcc13ba26bf4ebeb9e52.json",
+					"name" : "plus",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "test::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-test-Debug-66f57dc13f2818f9a29d.json",
 					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type-Debug-8fae54f8ee4822d4138a.json",
+					"name" : "type",
 					"projectIndex" : 0
 				}
 			]
@@ -60,7 +87,7 @@
 	"paths" : 
 	{
 		"build" : "D:/CUDA_AI_Infra/build",
-		"source" : "D:/CUDA_AI_Infra"
+		"source" : "D:/CUDA_AI_Infra/Day1"
 	},
 	"version" : 
 	{

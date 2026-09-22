@@ -53,7 +53,7 @@ RM = D:\CMake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\CUDA_AI_Infra
+CMAKE_SOURCE_DIR = D:\CUDA_AI_Infra\Day1
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = D:\CUDA_AI_Infra\build
@@ -64,11 +64,17 @@ CMAKE_BINARY_DIR = D:\CUDA_AI_Infra\build
 # The main recursive "all" target.
 all: CMakeFiles/hello.dir/all
 all: CMakeFiles/test.dir/all
+all: CMakeFiles/type.dir/all
+all: CMakeFiles/if1.dir/all
+all: CMakeFiles/plus.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/hello.dir/codegen
 codegen: CMakeFiles/test.dir/codegen
+codegen: CMakeFiles/type.dir/codegen
+codegen: CMakeFiles/if1.dir/codegen
+codegen: CMakeFiles/plus.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -78,6 +84,9 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/hello.dir/clean
 clean: CMakeFiles/test.dir/clean
+clean: CMakeFiles/type.dir/clean
+clean: CMakeFiles/if1.dir/clean
+clean: CMakeFiles/plus.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -119,7 +128,7 @@ CMakeFiles/hello.dir/clean:
 CMakeFiles/test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\CUDA_AI_Infra\build\CMakeFiles --progress-num=3,4 "Built target test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\CUDA_AI_Infra\build\CMakeFiles --progress-num=7,8 "Built target test"
 .PHONY : CMakeFiles/test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -136,13 +145,109 @@ test: CMakeFiles/test.dir/rule
 # codegen rule for target.
 CMakeFiles/test.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\CUDA_AI_Infra\build\CMakeFiles --progress-num=3,4 "Finished codegen for target test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\CUDA_AI_Infra\build\CMakeFiles --progress-num=7,8 "Finished codegen for target test"
 .PHONY : CMakeFiles/test.dir/codegen
 
 # clean rule for target.
 CMakeFiles/test.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/clean
 .PHONY : CMakeFiles/test.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/type.dir
+
+# All Build rule for target.
+CMakeFiles/type.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\type.dir\build.make CMakeFiles/type.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\type.dir\build.make CMakeFiles/type.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\CUDA_AI_Infra\build\CMakeFiles --progress-num=9,10 "Built target type"
+.PHONY : CMakeFiles/type.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/type.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CUDA_AI_Infra\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/type.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CUDA_AI_Infra\build\CMakeFiles 0
+.PHONY : CMakeFiles/type.dir/rule
+
+# Convenience name for target.
+type: CMakeFiles/type.dir/rule
+.PHONY : type
+
+# codegen rule for target.
+CMakeFiles/type.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\type.dir\build.make CMakeFiles/type.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\CUDA_AI_Infra\build\CMakeFiles --progress-num=9,10 "Finished codegen for target type"
+.PHONY : CMakeFiles/type.dir/codegen
+
+# clean rule for target.
+CMakeFiles/type.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\type.dir\build.make CMakeFiles/type.dir/clean
+.PHONY : CMakeFiles/type.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/if1.dir
+
+# All Build rule for target.
+CMakeFiles/if1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\if1.dir\build.make CMakeFiles/if1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\if1.dir\build.make CMakeFiles/if1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\CUDA_AI_Infra\build\CMakeFiles --progress-num=3,4 "Built target if1"
+.PHONY : CMakeFiles/if1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/if1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CUDA_AI_Infra\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/if1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CUDA_AI_Infra\build\CMakeFiles 0
+.PHONY : CMakeFiles/if1.dir/rule
+
+# Convenience name for target.
+if1: CMakeFiles/if1.dir/rule
+.PHONY : if1
+
+# codegen rule for target.
+CMakeFiles/if1.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\if1.dir\build.make CMakeFiles/if1.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\CUDA_AI_Infra\build\CMakeFiles --progress-num=3,4 "Finished codegen for target if1"
+.PHONY : CMakeFiles/if1.dir/codegen
+
+# clean rule for target.
+CMakeFiles/if1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\if1.dir\build.make CMakeFiles/if1.dir/clean
+.PHONY : CMakeFiles/if1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/plus.dir
+
+# All Build rule for target.
+CMakeFiles/plus.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\plus.dir\build.make CMakeFiles/plus.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\plus.dir\build.make CMakeFiles/plus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\CUDA_AI_Infra\build\CMakeFiles --progress-num=5,6 "Built target plus"
+.PHONY : CMakeFiles/plus.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/plus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CUDA_AI_Infra\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/plus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CUDA_AI_Infra\build\CMakeFiles 0
+.PHONY : CMakeFiles/plus.dir/rule
+
+# Convenience name for target.
+plus: CMakeFiles/plus.dir/rule
+.PHONY : plus
+
+# codegen rule for target.
+CMakeFiles/plus.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\plus.dir\build.make CMakeFiles/plus.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\CUDA_AI_Infra\build\CMakeFiles --progress-num=5,6 "Finished codegen for target plus"
+.PHONY : CMakeFiles/plus.dir/codegen
+
+# clean rule for target.
+CMakeFiles/plus.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\plus.dir\build.make CMakeFiles/plus.dir/clean
+.PHONY : CMakeFiles/plus.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

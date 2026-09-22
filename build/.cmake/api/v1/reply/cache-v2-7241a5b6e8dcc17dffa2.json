@@ -683,7 +683,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/CUDA_AI_Infra"
+			"value" : "D:/CUDA_AI_Infra/Day1"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1391,7 +1391,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/CUDA_AI_Infra"
+			"value" : "D:/CUDA_AI_Infra/Day1"
 		}
 	],
 	"kind" : "cache",

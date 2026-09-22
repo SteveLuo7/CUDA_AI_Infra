@@ -1,0 +1,3 @@
+D:\CMake\bin\cmake.exe -E rm -f CMakeFiles\plus.dir/objects.a
+D:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\plus.dir/objects.a @CMakeFiles\plus.dir\objects1.rsp
+D:\msys64\ucrt64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\plus.dir/objects.a -Wl,--no-whole-archive -o plus.exe -Wl,--out-implib,libplus.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\plus.dir\linkLibs.rsp

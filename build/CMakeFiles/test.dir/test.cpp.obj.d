@@ -1,4 +1,4 @@
-CMakeFiles/test.dir/test.cpp.obj: D:\CUDA_AI_Infra\test.cpp \
+CMakeFiles/test.dir/test.cpp.obj: D:\CUDA_AI_Infra\Day1\test.cpp \
  D:/msys64/ucrt64/include/c++/16.2.0/iostream \
  D:/msys64/ucrt64/include/c++/16.2.0/bits/requires_hosted.h \
  D:/msys64/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/c++config.h \

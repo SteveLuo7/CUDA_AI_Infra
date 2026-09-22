@@ -39,7 +39,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/CMake/share/cmake-4.4/Modules/Platform/Windows-windres.cmake"
   "D:/CMake/share/cmake-4.4/Modules/Platform/Windows.cmake"
   "D:/CMake/share/cmake-4.4/Modules/Platform/WindowsPaths.cmake"
-  "D:/CUDA_AI_Infra/CMakeLists.txt"
+  "D:/CUDA_AI_Infra/Day1/CMakeLists.txt"
   "CMakeFiles/4.4.3/CMakeCCompiler.cmake"
   "CMakeFiles/4.4.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.4.3/CMakeRCCompiler.cmake"
@@ -61,4 +61,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/hello.dir/DependInfo.cmake"
   "CMakeFiles/test.dir/DependInfo.cmake"
+  "CMakeFiles/type.dir/DependInfo.cmake"
+  "CMakeFiles/if1.dir/DependInfo.cmake"
+  "CMakeFiles/plus.dir/DependInfo.cmake"
   )
