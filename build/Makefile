@@ -180,6 +180,19 @@ plus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\plus.dir\build.make CMakeFiles/plus.dir/build
 .PHONY : plus/fast
 
+#=============================================================================
+# Target rules for targets named new
+
+# Build rule for target.
+new: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 new
+.PHONY : new
+
+# fast build rule for target.
+new/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\new.dir\build.make CMakeFiles/new.dir/build
+.PHONY : new/fast
+
 hello.obj: hello.cpp.obj
 .PHONY : hello.obj
 
@@ -227,6 +240,30 @@ if1.s: if1.cpp.s
 if1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\if1.dir\build.make CMakeFiles/if1.dir/if1.cpp.s
 .PHONY : if1.cpp.s
+
+new.obj: new.cpp.obj
+.PHONY : new.obj
+
+# target to build an object file
+new.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\new.dir\build.make CMakeFiles/new.dir/new.cpp.obj
+.PHONY : new.cpp.obj
+
+new.i: new.cpp.i
+.PHONY : new.i
+
+# target to preprocess a source file
+new.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\new.dir\build.make CMakeFiles/new.dir/new.cpp.i
+.PHONY : new.cpp.i
+
+new.s: new.cpp.s
+.PHONY : new.s
+
+# target to generate assembly for a file
+new.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\new.dir\build.make CMakeFiles/new.dir/new.cpp.s
+.PHONY : new.cpp.s
 
 plus.obj: plus.cpp.obj
 .PHONY : plus.obj
@@ -310,6 +347,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... hello
 	@echo ... if1
+	@echo ... new
 	@echo ... plus
 	@echo ... test
 	@echo ... type
@@ -319,6 +357,9 @@ help:
 	@echo ... if1.obj
 	@echo ... if1.i
 	@echo ... if1.s
+	@echo ... new.obj
+	@echo ... new.i
+	@echo ... new.s
 	@echo ... plus.obj
 	@echo ... plus.i
 	@echo ... plus.s

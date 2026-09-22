@@ -20,7 +20,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -39,7 +40,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -57,6 +59,13 @@
 					"id" : "if1::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-if1-Debug-f453d8023e9445564b62.json",
 					"name" : "if1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "new::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-new-Debug-8af0f52552e6cc54f139.json",
+					"name" : "new",
 					"projectIndex" : 0
 				},
 				{

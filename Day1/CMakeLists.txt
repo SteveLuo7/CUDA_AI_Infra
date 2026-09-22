@@ -14,3 +14,5 @@ add_executable(type type.cpp)
 add_executable(if1 if1.cpp)
 
 add_executable(plus plus.cpp)
+
+add_executable(new new.cpp)

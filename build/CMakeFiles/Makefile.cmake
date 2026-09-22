@@ -64,4 +64,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/type.dir/DependInfo.cmake"
   "CMakeFiles/if1.dir/DependInfo.cmake"
   "CMakeFiles/plus.dir/DependInfo.cmake"
+  "CMakeFiles/new.dir/DependInfo.cmake"
   )

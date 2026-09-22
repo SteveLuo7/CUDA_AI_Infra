@@ -3,5 +3,6 @@ D:/CUDA_AI_Infra/build/CMakeFiles/test.dir
 D:/CUDA_AI_Infra/build/CMakeFiles/type.dir
 D:/CUDA_AI_Infra/build/CMakeFiles/if1.dir
 D:/CUDA_AI_Infra/build/CMakeFiles/plus.dir
+D:/CUDA_AI_Infra/build/CMakeFiles/new.dir
 D:/CUDA_AI_Infra/build/CMakeFiles/edit_cache.dir
 D:/CUDA_AI_Infra/build/CMakeFiles/rebuild_cache.dir

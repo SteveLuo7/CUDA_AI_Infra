@@ -28,5 +28,11 @@
   "command": "D:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\plus.dir\\plus.cpp.obj -c D:\\CUDA_AI_Infra\\Day1\\plus.cpp",
   "file": "D:/CUDA_AI_Infra/Day1/plus.cpp",
   "output": "CMakeFiles/plus.dir/plus.cpp.obj"
+},
+{
+  "directory": "D:/CUDA_AI_Infra/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\new.dir\\new.cpp.obj -c D:\\CUDA_AI_Infra\\Day1\\new.cpp",
+  "file": "D:/CUDA_AI_Infra/Day1/new.cpp",
+  "output": "CMakeFiles/new.dir/new.cpp.obj"
 }
 ]
